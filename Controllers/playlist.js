@@ -4,7 +4,8 @@ const Video = require("../Models/video");
 const defaultPlaylists = ["Liked Videos", "Saved Videos", "Watch Later"]
 
 exports.getPlaylistsOfAUser = async (req, res) => {
-    const {userId} = req.param;
+    const {userId} = req.params;
+
     try {
         const response = await Playlist.find({userId});
         if(!response.length) {
@@ -22,6 +23,7 @@ exports.getPlaylistsOfAUser = async (req, res) => {
             catch( error ){
                 res.json({ success: false, response: error.message})
             }
+            // await createDefaultPlaylist(userId)
         }
         else {
             res.json({success: true, response: response})
