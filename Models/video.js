@@ -1,6 +1,6 @@
 const { ObjectID } = require("bson");
 const mongoose = require("mongoose");
-const { Schema } = mongoose()
+const { Schema } = mongoose
 
 
 const videoSchema = new Schema ({
@@ -37,6 +37,16 @@ const videoSchema = new Schema ({
     category: {
         type: Schema.Types.ObjectId,
         ref: "Category"
+    },
+    viewCount: {
+        type: String,
+        trim: true,
+        required: "viewCount is required"
+    },
+    likeCount: {
+        type: String,
+        trim: true,
+        required: "viewCount is required"
     }
 }, {timestamps: true})
 
