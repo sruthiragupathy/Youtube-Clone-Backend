@@ -6,8 +6,10 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 const connectMongoDb = require("./ConnectMongoDb");
 const categoryRoutes = require("./Routes/category");
+const videoRoutes = require("./Routes/video")
 const { normalizeData } = require("./normalizeData");
 const Video = require("./Models/video")
+const playlistRoutes = require("./Routes/playlist");
 
 
 const PORT = process.env.PORT || 3000
@@ -24,8 +26,8 @@ let videoList;
 //     }
 // }
 
-normalizeData()
-.then((response) => videoList = response)
+// normalizeData()
+// .then((response) => videoList = response)
 // .then(() => populateData(videoList));
 
 
@@ -34,6 +36,10 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(cors());
 
 app.use("/api", categoryRoutes);
+app.use("/api", videoRoutes);
+app.use("/api", playlistRoutes);
+
+
 
 app.listen(PORT, () => {
     console.log("Server running at port" + PORT)
