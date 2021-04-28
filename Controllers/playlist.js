@@ -58,11 +58,9 @@ const addVideoToPlaylist = async (req, res) => {
   // const { videoId } = req.params;
   try {
     playlist.videos.push({ _id: video._id, video: video._id });
-    let updatePlaylist = await playlist.save();
-    updatePlaylist = await updatePlaylist
-      .populate('videos.video')
-      .execPopulate();
-    res.json({ response: updatePlaylist });
+    await playlist.save();
+    await playlist.populate('videos.video').execPopulate();
+    res.json({ response: playlist });
   } catch (error) {
     res.status(400).json({ response: error.message });
   }
@@ -74,6 +72,7 @@ const removeVideoFromPlaylist = async (req, res) => {
     await playlist.videos.id(video._id).remove();
     await playlist.save();
     const userPlaylist = await Playlist.findById(playlist._id);
+    await userPlaylist.populate('videos.video').execPopulate();
     res.json({ response: userPlaylist });
   } catch (error) {
     res.json({ response: error.response });
