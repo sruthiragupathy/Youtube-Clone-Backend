@@ -4,7 +4,7 @@ const { Schema } = mongoose
 
 
 const videoSchema = new Schema ({
-    _id: {
+    videoId: {
         type: String,
         trim: true,
         required: "id is required"

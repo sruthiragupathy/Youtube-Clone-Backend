@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const { Schema } = mongoose
 
 const childSchema = new Schema ({
-    _id: {
+    video: {
         type: Schema.Types.ObjectId,
         ref: "Video"
     }
@@ -19,7 +19,7 @@ const playlistSchema = new Schema ({
         trim: true,
         required: "Playlist name is required"
     },
-    playlists: [childSchema]
+    videos: [childSchema]
 }, {timestamps: true})
 
 module.exports = mongoose.model("Playlist", playlistSchema);

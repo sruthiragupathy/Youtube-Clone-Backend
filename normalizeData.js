@@ -41,7 +41,7 @@ exports.normalizeData = async () => {
 
     const promises = await videoList.map(async video => {
         const individualVideo = {
-            _id: video.id.videoId,
+            videoId: video.id.videoId,
             title: video.snippet.title,
             description: video.snippet.description,
             thumbNailUrl: video.snippet.thumbnails.default.url,

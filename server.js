@@ -41,6 +41,8 @@ app.use("/api", playlistRoutes);
 
 
 
+
+
 app.listen(PORT, () => {
     console.log("Server running at port" + PORT)
 })
