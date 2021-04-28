@@ -1,21 +1,20 @@
-require("dotenv").config()
+require('dotenv').config();
 
-const express = require("express");
-const app = express()
-const cors = require("cors");
-const bodyParser = require("body-parser");
-const connectMongoDb = require("./ConnectMongoDb");
-const categoryRoutes = require("./Routes/category");
-const videoRoutes = require("./Routes/video")
-const { normalizeData } = require("./normalizeData");
-const Video = require("./Models/video")
-const playlistRoutes = require("./Routes/playlist");
+const express = require('express');
 
+const app = express();
+const cors = require('cors');
+const bodyParser = require('body-parser');
+const connectMongoDb = require('./ConnectMongoDb');
+const categoryRoutes = require('./Routes/category');
+const videoRoutes = require('./Routes/video');
+// const { normalizeData } = require('./normalizeData');
+// const Video = require('./Models/video');
+const playlistRoutes = require('./Routes/playlist');
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3000;
 
 connectMongoDb();
-let videoList;
 
 // const populateData = async ( videoList ) => {
 //     try {
@@ -30,20 +29,14 @@ let videoList;
 // .then((response) => videoList = response)
 // .then(() => populateData(videoList));
 
-
-app.use(bodyParser.json()) // handle json data
-app.use(bodyParser.urlencoded({ extended: true }))
+app.use(bodyParser.json()); // handle json data
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
-app.use("/api", categoryRoutes);
-app.use("/api", videoRoutes);
-app.use("/api", playlistRoutes);
-
-
-
-
+app.use('/api', categoryRoutes);
+app.use('/api', videoRoutes);
+app.use('/api', playlistRoutes);
 
 app.listen(PORT, () => {
-    console.log("Server running at port" + PORT)
-})
-
+  console.log(`Server running at port${PORT}`);
+});
