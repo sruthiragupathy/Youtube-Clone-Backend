@@ -10,6 +10,7 @@ const {
   createPlaylist,
   addVideoToPlaylist,
   removeVideoFromPlaylist,
+  removePlaylist,
 } = require('../Controllers/playlist');
 
 const router = express.Router();
@@ -23,5 +24,6 @@ router.get('/:userId/playlists', getPlaylistsOfAUser);
 router.post('/:userId/playlists/:videoId', createPlaylist);
 router.post('/playlist/:playlistId/:videoId', addVideoToPlaylist);
 router.delete('/playlist/:playlistId/:videoId', removeVideoFromPlaylist);
+router.delete('/playlists/:playlistId', removePlaylist);
 
 module.exports = router;

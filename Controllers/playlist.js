@@ -75,7 +75,17 @@ const removeVideoFromPlaylist = async (req, res) => {
     await userPlaylist.populate('videos.video').execPopulate();
     res.json({ response: userPlaylist });
   } catch (error) {
-    res.json({ response: error.response });
+    res.json({ response: error.message });
+  }
+};
+
+const removePlaylist = async (req, res) => {
+  const { playlist } = req;
+  try {
+    await Playlist.remove({ _id: playlist._id });
+    res.json({ response: playlist._id });
+  } catch (error) {
+    res.status(400).json({ response: error.message });
   }
 };
 
@@ -84,4 +94,5 @@ module.exports = {
   createPlaylist,
   addVideoToPlaylist,
   removeVideoFromPlaylist,
+  removePlaylist,
 };

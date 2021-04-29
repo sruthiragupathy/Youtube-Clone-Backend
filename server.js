@@ -11,6 +11,7 @@ const videoRoutes = require('./Routes/video');
 // const { normalizeData } = require('./normalizeData');
 // const Video = require('./Models/video');
 const playlistRoutes = require('./Routes/playlist');
+const noteRoutes = require('./Routes/note');
 
 const PORT = process.env.PORT || 3000;
 
@@ -36,6 +37,7 @@ app.use(cors());
 app.use('/api', categoryRoutes);
 app.use('/api', videoRoutes);
 app.use('/api', playlistRoutes);
+app.use('/api', noteRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server running at port${PORT}`);
