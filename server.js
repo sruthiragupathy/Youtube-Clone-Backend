@@ -13,13 +13,14 @@ const videoRoutes = require('./Routes/video');
 const playlistRoutes = require('./Routes/playlist');
 const noteRoutes = require('./Routes/note');
 
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 
 connectMongoDb();
 
 // const populateData = async ( videoList ) => {
 //     try {
 //     await Video.insertMany(videoList);
+//        console.log("done populating");
 //     }
 //     catch (error) {
 //         console.log(error)
@@ -33,7 +34,6 @@ connectMongoDb();
 app.use(bodyParser.json()); // handle json data
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
-
 app.use('/api', categoryRoutes);
 app.use('/api', videoRoutes);
 app.use('/api', playlistRoutes);

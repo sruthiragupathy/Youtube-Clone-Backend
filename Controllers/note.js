@@ -14,42 +14,39 @@ const getAllNotesOfAUser = async (req, res) => {
 const createNotesForAVideo = async (req, res) => {
   const { userId, videoId } = req.params;
   const { note, time } = req.body;
-  const createNote = new Note({
-    userId,
-    videoId,
-    notes: [
-      {
+  const notesOfAVideo = await Note.findOne({ userId, videoId });
+  if (notesOfAVideo) {
+    try {
+      await notesOfAVideo.notes.push({
         note,
         time,
-      },
-    ],
-  });
-  try {
-    await createNote.save();
-    const response = await Note.find({ userId });
-    res.json({ response });
-  } catch (error) {
-    res.status(400).json({ response: error.message });
-  }
-};
-
-const addNoteToExistingVideo = async (req, res) => {
-  // console.log("hi");
-  const { userId, videoId } = req.params;
-  const { note, time } = req.body;
-  try {
-    const notesOfAVideo = await Note.findOne({ userId, videoId });
-    await notesOfAVideo.notes.push({
-      note,
-      time,
+      });
+      // console.log({notesOfAVideo});
+      await notesOfAVideo.save();
+      const response = await Note.find({ userId });
+      console.log(response);
+      res.json({ response });
+    } catch (error) {
+      res.status(400).json({ response: error.message });
+    }
+  } else {
+    const createNote = new Note({
+      userId,
+      videoId,
+      notes: [
+        {
+          note,
+          time,
+        },
+      ],
     });
-    // console.log({notesOfAVideo});
-    await notesOfAVideo.save();
-    const response = await Note.find({ userId });
-    console.log(response);
-    res.json({ response });
-  } catch (error) {
-    res.status(400).json({ response: error.message });
+    try {
+      await createNote.save();
+      const response = await Note.find({ userId });
+      res.json({ response });
+    } catch (error) {
+      res.status(400).json({ response: error.message });
+    }
   }
 };
 
@@ -89,7 +86,6 @@ const deleteNote = async (req, res) => {
 module.exports = {
   getAllNotesOfAUser,
   createNotesForAVideo,
-  addNoteToExistingVideo,
   updateNote,
   deleteNote,
 };

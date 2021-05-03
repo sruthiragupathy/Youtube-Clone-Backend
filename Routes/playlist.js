@@ -11,6 +11,7 @@ const {
   addVideoToPlaylist,
   removeVideoFromPlaylist,
   removePlaylist,
+  getVideosOfAPlaylist,
 } = require('../Controllers/playlist');
 
 const router = express.Router();
@@ -21,6 +22,7 @@ router.param('videoId', getVideoById);
 router.param('playlistId', getPlaylistById);
 
 router.get('/:userId/playlists', getPlaylistsOfAUser);
+router.get('/playlist/:playlistId', getVideosOfAPlaylist);
 router.post('/:userId/playlists/:videoId', createPlaylist);
 router.post('/playlist/:playlistId/:videoId', addVideoToPlaylist);
 router.delete('/playlist/:playlistId/:videoId', removeVideoFromPlaylist);

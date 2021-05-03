@@ -13,7 +13,7 @@ const getPlaylistsOfAUser = async (req, res) => {
       const transformedData = defaultPlaylists.map((playlist) => ({
         userId,
         name: playlist,
-        playlists: [],
+        videos: [],
       }));
       try {
         const createdPlaylist = await Playlist.insertMany(transformedData);
@@ -25,20 +25,33 @@ const getPlaylistsOfAUser = async (req, res) => {
       } catch (error) {
         res.json({ success: false, response: error.message });
       }
-      // await createDefaultPlaylist(userId)
     } else {
-      res.json({ success: true, response });
+      const responsePromises = await response.map((el) =>
+        el.populate('videos.video').execPopulate()
+      );
+      const allPlaylists = await Promise.all(responsePromises);
+      res.json({ success: true, response: allPlaylists });
     }
   } catch (error) {
-    res.json({ success: false, response: 'Could not find playlists' });
+    res.json({ success: false, response: error.message });
   }
 };
 
+const getVideosOfAPlaylist = async (req, res) => {
+  const { playlistId } = req.params;
+  try {
+    const response = await Playlist.findById(playlistId);
+    await response.populate('videos.video').execPopulate();
+    res.json({ response: response.videos });
+  } catch (error) {
+    res.status(400).json({ response: error.message });
+  }
+};
 const createPlaylist = async (req, res) => {
   const { userId } = req.params;
   const { name } = req.body;
   const { video } = req;
-  console.log(mongoose.Types.ObjectId.isValid(video._id));
+  // console.log(mongoose.Types.ObjectId.isValid(video._id));
   const newVideo = new Playlist({
     userId,
     name,
@@ -57,8 +70,10 @@ const addVideoToPlaylist = async (req, res) => {
   const { playlist, video } = req;
   // const { videoId } = req.params;
   try {
-    playlist.videos.push({ _id: video._id, video: video._id });
-    await playlist.save();
+    if (!playlist.videos.id(video._id)) {
+      playlist.videos.push({ _id: video._id, video: video._id });
+      await playlist.save();
+    }
     await playlist.populate('videos.video').execPopulate();
     res.json({ response: playlist });
   } catch (error) {
@@ -95,4 +110,5 @@ module.exports = {
   addVideoToPlaylist,
   removeVideoFromPlaylist,
   removePlaylist,
+  getVideosOfAPlaylist,
 };

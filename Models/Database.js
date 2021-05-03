@@ -1,357 +1,356 @@
 exports.videoList = [
   {
     kind: 'youtube#searchResult',
-    etag: 'OWczHzb7tk89JAJDO2YfcOjPdTw',
+    etag: 'LGCQ8idy62TfH0mqOb0XrVrVNk8',
     id: {
       kind: 'youtube#video',
-      videoId: 'iGIGnUOWYH8',
+      videoId: 'vV_QoQD_nrA',
     },
     snippet: {
-      publishedAt: '2015-11-24T18:00:01Z',
-      channelId: 'UCaWd5_7JhbQBe4dknZhsHJg',
-      title: 'Top 10 Classic Fashion Designers',
+      publishedAt: '2021-01-21T13:49:44Z',
+      channelId: 'UC5q0PIKGr2lGOsiT14AlEYg',
+      title: 'Men’s Fall-Winter 2021 Fashion Show | LOUIS VUITTON',
       description:
-        "For this list, we're looking at classic designers from around the world that revolutionized the fashion industry and turned their companies into international labels.",
+        'Louis Vuitton presented the Fall-Winter 2021 Collection by Virgil Abloh in Paris on January, 21st. Peculiar Contrast, Perfect Light A Film By Virgil Abloh And ...',
       thumbnails: {
         default: {
-          url: 'https://i.ytimg.com/vi/iGIGnUOWYH8/default.jpg',
+          url: 'https://i.ytimg.com/vi/vV_QoQD_nrA/default.jpg',
           width: 120,
           height: 90,
         },
         medium: {
-          url: 'https://i.ytimg.com/vi/iGIGnUOWYH8/mqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/vV_QoQD_nrA/mqdefault.jpg',
           width: 320,
           height: 180,
         },
         high: {
-          url: 'https://i.ytimg.com/vi/iGIGnUOWYH8/hqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/vV_QoQD_nrA/hqdefault.jpg',
           width: 480,
           height: 360,
         },
       },
-      channelTitle: 'WatchMojo.com',
+      channelTitle: 'Louis Vuitton',
       liveBroadcastContent: 'none',
-      publishTime: '2015-11-24T18:00:01Z',
+      publishTime: '2021-01-21T13:49:44Z',
     },
   },
   {
     kind: 'youtube#searchResult',
-    etag: 'K0WMLAeoHDiKGjsA0a357RUtq3E',
+    etag: 'Aze5kCR_fGe2wpVmm5fKxsBw60s',
     id: {
       kind: 'youtube#video',
-      videoId: '8npjnUEz3wU',
+      videoId: 'GvQgXS_gtHs',
     },
     snippet: {
-      publishedAt: '2021-01-16T07:36:25Z',
-      channelId: 'UCuKMjgfXWlORu1QDnU6Mu-w',
+      publishedAt: '2019-09-13T21:00:05Z',
+      channelId: 'UCo7a6riBFJ3tkeHjvkXPn1g',
+      title: 'Why is Louis Vuitton so expensive? | CNBC Explains',
+      description:
+        "Louis Vuitton has held the title for world's most valuable luxury brand for more than a decade. CNBC's Timothyna Duncan explains how the French fashion ...",
+      thumbnails: {
+        default: {
+          url: 'https://i.ytimg.com/vi/GvQgXS_gtHs/default.jpg',
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: 'https://i.ytimg.com/vi/GvQgXS_gtHs/mqdefault.jpg',
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: 'https://i.ytimg.com/vi/GvQgXS_gtHs/hqdefault.jpg',
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: 'CNBC International',
+      liveBroadcastContent: 'none',
+      publishTime: '2019-09-13T21:00:05Z',
+    },
+  },
+  {
+    kind: 'youtube#searchResult',
+    etag: 'gC_xSmrdzqgbf-pcUfITUjzjNxg',
+    id: {
+      kind: 'youtube#video',
+      videoId: 'dyDQIegxvHQ',
+    },
+    snippet: {
+      publishedAt: '2019-04-17T23:00:04Z',
+      channelId: 'UCs-RHLMgqjC1CS9Rsq4I3Xg',
+      title: 'Returning Fake Louis Vuitton To The Louis Vuitton Store!',
+      description:
+        "Today we went to the louis vuitton store and tried to return a fake louis vuitton bag! What's good Legit Nation! Thanks for watching and supporting the channel!",
+      thumbnails: {
+        default: {
+          url: 'https://i.ytimg.com/vi/dyDQIegxvHQ/default.jpg',
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: 'https://i.ytimg.com/vi/dyDQIegxvHQ/mqdefault.jpg',
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: 'https://i.ytimg.com/vi/dyDQIegxvHQ/hqdefault.jpg',
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: 'Legit Tim',
+      liveBroadcastContent: 'none',
+      publishTime: '2019-04-17T23:00:04Z',
+    },
+  },
+  {
+    kind: 'youtube#searchResult',
+    etag: 'U9POT34qh4zeD853HGjnJ0se1wk',
+    id: {
+      kind: 'youtube#video',
+      videoId: 'jTwW4ZrqT3w',
+    },
+    snippet: {
+      publishedAt: '2020-08-06T11:10:00Z',
+      channelId: 'UC5q0PIKGr2lGOsiT14AlEYg',
       title:
-        'GK for NIFT/NID Entrance Exam 2021 | 10 Famous International Fashion Designers | Fashion GK for NIFT',
+        'Louis Vuitton Men&#39;s Spring-Summer 2021 Show in Shanghai | LOUIS VUITTON',
       description:
-        "Fashion GK is one of the most important and exciting topic in the design entrance exams. In this video you'll learn about 10 famous fashion designers of the ...",
+        "Louis Vuitton presents the Men's Spring-Summer 2021 Collection by Virgil Abloh in Shanghai. Music produced by Benji B and written by Omar, The Yussef ...",
       thumbnails: {
         default: {
-          url: 'https://i.ytimg.com/vi/8npjnUEz3wU/default.jpg',
+          url: 'https://i.ytimg.com/vi/jTwW4ZrqT3w/default.jpg',
           width: 120,
           height: 90,
         },
         medium: {
-          url: 'https://i.ytimg.com/vi/8npjnUEz3wU/mqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/jTwW4ZrqT3w/mqdefault.jpg',
           width: 320,
           height: 180,
         },
         high: {
-          url: 'https://i.ytimg.com/vi/8npjnUEz3wU/hqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/jTwW4ZrqT3w/hqdefault.jpg',
           width: 480,
           height: 360,
         },
       },
-      channelTitle: 'THE DESIGN LADDER',
+      channelTitle: 'Louis Vuitton',
       liveBroadcastContent: 'none',
-      publishTime: '2021-01-16T07:36:25Z',
+      publishTime: '2020-08-06T11:10:00Z',
     },
   },
   {
     kind: 'youtube#searchResult',
-    etag: 'LGnZyFQfBdiw508d6OpJxe22LWw',
+    etag: 'CMu2Zl1Sp7FLwyA0xMtyacJBta8',
     id: {
       kind: 'youtube#video',
-      videoId: 'FmUGaEVG0n0',
+      videoId: 'SfDZwPoEjwM',
     },
     snippet: {
-      publishedAt: '2019-09-20T18:24:32Z',
-      channelId: 'UCgwGJ7eRqURmqBgg-k52H_g',
+      publishedAt: '2019-06-20T13:24:04Z',
+      channelId: 'UC5q0PIKGr2lGOsiT14AlEYg',
+      title: 'Louis Vuitton Men&#39;s Spring-Summer 2020 Fashion Show',
+      description:
+        "Louis Vuitton presents the Men's Spring-Summer 2020 Collection by Virgil Abloh in Paris. Musical Direction & Curation by: Benji B Music Performed by: The ...",
+      thumbnails: {
+        default: {
+          url: 'https://i.ytimg.com/vi/SfDZwPoEjwM/default.jpg',
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: 'https://i.ytimg.com/vi/SfDZwPoEjwM/mqdefault.jpg',
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: 'https://i.ytimg.com/vi/SfDZwPoEjwM/hqdefault.jpg',
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: 'Louis Vuitton',
+      liveBroadcastContent: 'none',
+      publishTime: '2019-06-20T13:24:04Z',
+    },
+  },
+  {
+    kind: 'youtube#searchResult',
+    etag: 'uCUfZHKpCcl508UpK9NpoHG5xao',
+    id: {
+      kind: 'youtube#video',
+      videoId: '-h1pJkdcYgI',
+    },
+    snippet: {
+      publishedAt: '2019-09-20T08:14:24Z',
+      channelId: 'UC5q0PIKGr2lGOsiT14AlEYg',
       title:
-        'Top Fashion Designers in the World | 5 Best Fashion Designers in the world',
+        'Ateliers Visites with Loïc Prigent: Fiesso d’Artico, Italy | LOUIS VUITTON',
       description:
-        "Top Fashion Designers in the World | 5 Best Fashion Designers in the world Don't forget to subscribe us: https://bit.ly/2kIgqSe check out our previous videos: ...",
+        "After Asnières, French director Loïc Prigent heads to Louis Vuitton's shoemaking workshop in Fiesso d'Artico, outside of Venice, Italy, where he learns about the ...",
       thumbnails: {
         default: {
-          url: 'https://i.ytimg.com/vi/FmUGaEVG0n0/default.jpg',
+          url: 'https://i.ytimg.com/vi/-h1pJkdcYgI/default.jpg',
           width: 120,
           height: 90,
         },
         medium: {
-          url: 'https://i.ytimg.com/vi/FmUGaEVG0n0/mqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/-h1pJkdcYgI/mqdefault.jpg',
           width: 320,
           height: 180,
         },
         high: {
-          url: 'https://i.ytimg.com/vi/FmUGaEVG0n0/hqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/-h1pJkdcYgI/hqdefault.jpg',
           width: 480,
           height: 360,
         },
       },
-      channelTitle: 'Fashionlic',
+      channelTitle: 'Louis Vuitton',
       liveBroadcastContent: 'none',
-      publishTime: '2019-09-20T18:24:32Z',
+      publishTime: '2019-09-20T08:14:24Z',
     },
   },
   {
     kind: 'youtube#searchResult',
-    etag: 'An8oD5sXrQuIY-MXGzFHeSvoDEw',
+    etag: 'Cw9v4tW2MKXMglhckGruxXnKyYA',
     id: {
       kind: 'youtube#video',
-      videoId: 'dUuF2lJwV5s',
+      videoId: 'G69EXN-Lm9g',
     },
     snippet: {
-      publishedAt: '2020-07-14T12:25:28Z',
-      channelId: 'UCCFGvgG93KwOLh3RT4oOzDA',
+      publishedAt: '2014-12-04T15:09:00Z',
+      channelId: 'UCdKer4s1D0JGRM-bvniqYtA',
       title:
-        'Top Famous Fashion Designers of India 2020 | All fashion students must know | For NIFT/NID/IIFT/FDDI',
+        'Fondation Louis Vuitton, histoire d&#39;une construction exceptionnelle',
       description:
-        'In this video you will learn about The TOP FAMOUS INDIAN FASHION DESIGNERS IN 2020 this video is a very important for all the fashion students out there.',
+        "Découvrez en images les étapes de la construction de la Fondation Louis Vuitton, un chantier d'une complexité inédite ! VINCI a achevé en 2014 la construction ...",
       thumbnails: {
         default: {
-          url: 'https://i.ytimg.com/vi/dUuF2lJwV5s/default.jpg',
+          url: 'https://i.ytimg.com/vi/G69EXN-Lm9g/default.jpg',
           width: 120,
           height: 90,
         },
         medium: {
-          url: 'https://i.ytimg.com/vi/dUuF2lJwV5s/mqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/G69EXN-Lm9g/mqdefault.jpg',
           width: 320,
           height: 180,
         },
         high: {
-          url: 'https://i.ytimg.com/vi/dUuF2lJwV5s/hqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/G69EXN-Lm9g/hqdefault.jpg',
           width: 480,
           height: 360,
         },
       },
-      channelTitle: 'Madam AKS',
+      channelTitle: 'VINCI Construction France',
       liveBroadcastContent: 'none',
-      publishTime: '2020-07-14T12:25:28Z',
+      publishTime: '2014-12-04T15:09:00Z',
     },
   },
   {
     kind: 'youtube#searchResult',
-    etag: 'ruuICozNo4vuLqS2xnPhgIzsKyw',
+    etag: 'BoUwp542ydJzbz2wkRT7RlgoazQ',
     id: {
       kind: 'youtube#video',
-      videoId: 'EN6jtHIqeTg',
+      videoId: 'xKyD0u12Ssk',
     },
     snippet: {
-      publishedAt: '2019-05-19T15:00:03Z',
-      channelId: 'UCMQ_mPIBPi4IMpYEmuyOMqQ',
-      title: 'How to Become a Fashion Designer',
+      publishedAt: '2020-08-14T08:14:40Z',
+      channelId: 'UC5q0PIKGr2lGOsiT14AlEYg',
+      title: 'LV Volt Fine Jewelry Campaign | LOUIS VUITTON',
       description:
-        "... Fashion & Fabric for Fashion: The Swatchbook by Clive Hallett & Amanda Johnston The Fashion Designer's Textile Directory by Gail Baugh SUSTAINABILITY: ...",
+        'ABOUT LOUIS VUITTON Since 1854, Louis Vuitton has placed fashion in the context of culture bringing unique designs to the world, combining innovation with ...',
       thumbnails: {
         default: {
-          url: 'https://i.ytimg.com/vi/EN6jtHIqeTg/default.jpg',
+          url: 'https://i.ytimg.com/vi/xKyD0u12Ssk/default.jpg',
           width: 120,
           height: 90,
         },
         medium: {
-          url: 'https://i.ytimg.com/vi/EN6jtHIqeTg/mqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/xKyD0u12Ssk/mqdefault.jpg',
           width: 320,
           height: 180,
         },
         high: {
-          url: 'https://i.ytimg.com/vi/EN6jtHIqeTg/hqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/xKyD0u12Ssk/hqdefault.jpg',
           width: 480,
           height: 360,
         },
       },
-      channelTitle: 'Zoe Hong',
+      channelTitle: 'Louis Vuitton',
       liveBroadcastContent: 'none',
-      publishTime: '2019-05-19T15:00:03Z',
+      publishTime: '2020-08-14T08:14:40Z',
     },
   },
   {
     kind: 'youtube#searchResult',
-    etag: 'o15M8yMA-RhxhAZ-y7yn75RfqxE',
+    etag: 'Cj4F8G4a7IPp5JQtDuM8w4VUPmE',
     id: {
       kind: 'youtube#video',
-      videoId: '42HtrEx6754',
+      videoId: 'Mv--9E2rSzw',
     },
     snippet: {
-      publishedAt: '2020-02-01T14:11:52Z',
-      channelId: 'UCPAAJY0e-XsjwsGAAx-g0zw',
+      publishedAt: '2018-03-07T13:25:13Z',
+      channelId: 'UC5q0PIKGr2lGOsiT14AlEYg',
       title:
-        'Top Fashion Designers in the World | Best Fashion Designers of All Time | Top 10 World Trend',
+        'Louis Vuitton Women&#39;s Fall-Winter 2018 Fashion Show | LOUIS VUITTON',
       description:
-        'Famous Fashion Designers in the World 2021 | Best Fashion Designers of All Time | Top 10 World Trend The most lovely and majestic dresses used by the ...',
+        "The Louis Vuitton Women's Fall-Winter 2018 Fashion Show by Nicolas Ghesquière is live from the Louvre in Paris. Take your front row seat for the show now.",
       thumbnails: {
         default: {
-          url: 'https://i.ytimg.com/vi/42HtrEx6754/default.jpg',
+          url: 'https://i.ytimg.com/vi/Mv--9E2rSzw/default.jpg',
           width: 120,
           height: 90,
         },
         medium: {
-          url: 'https://i.ytimg.com/vi/42HtrEx6754/mqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/Mv--9E2rSzw/mqdefault.jpg',
           width: 320,
           height: 180,
         },
         high: {
-          url: 'https://i.ytimg.com/vi/42HtrEx6754/hqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/Mv--9E2rSzw/hqdefault.jpg',
           width: 480,
           height: 360,
         },
       },
-      channelTitle: 'Top10 World Trend',
+      channelTitle: 'Louis Vuitton',
       liveBroadcastContent: 'none',
-      publishTime: '2020-02-01T14:11:52Z',
+      publishTime: '2018-03-07T13:25:13Z',
     },
   },
   {
     kind: 'youtube#searchResult',
-    etag: '0Jr83pKnP0IdlHzG5u1Sd_mCL1g',
+    etag: 'RYc6ebfw8GJ5eOfVs2YGKK0YcbA',
     id: {
       kind: 'youtube#video',
-      videoId: 'rhLsBDnQcWo',
+      videoId: 'FVBIcPETT8I',
     },
     snippet: {
-      publishedAt: '2018-06-13T09:00:04Z',
-      channelId: 'UCzq_S322KPhggjE1drE_dyQ',
-      title: 'Top 10 Best Fashion Designers in India',
+      publishedAt: '2021-03-10T13:19:16Z',
+      channelId: 'UC5q0PIKGr2lGOsiT14AlEYg',
+      title: 'Women’s Fall-Winter 2021 Fashion Show | LOUIS VUITTON',
       description:
-        "Fashion Industry in India has gained a lot of popularity in today's world and has made its mark on the global map. Thanks to our top fashion designers who are ...",
+        'Nicolas Ghesquière presented his #LVFW21​ Collection in the spectacular setting of the Michelangelo Gallery at the Louvre in Paris, featuring a collaborative ...',
       thumbnails: {
         default: {
-          url: 'https://i.ytimg.com/vi/rhLsBDnQcWo/default.jpg',
+          url: 'https://i.ytimg.com/vi/FVBIcPETT8I/default.jpg',
           width: 120,
           height: 90,
         },
         medium: {
-          url: 'https://i.ytimg.com/vi/rhLsBDnQcWo/mqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/FVBIcPETT8I/mqdefault.jpg',
           width: 320,
           height: 180,
         },
         high: {
-          url: 'https://i.ytimg.com/vi/rhLsBDnQcWo/hqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/FVBIcPETT8I/hqdefault.jpg',
           width: 480,
           height: 360,
         },
       },
-      channelTitle: 'Top List',
+      channelTitle: 'Louis Vuitton',
       liveBroadcastContent: 'none',
-      publishTime: '2018-06-13T09:00:04Z',
-    },
-  },
-  {
-    kind: 'youtube#searchResult',
-    etag: '_F1ta7d1xqvTRyYdzmrkMcDxsww',
-    id: {
-      kind: 'youtube#video',
-      videoId: '0SjdnWb_9i8',
-    },
-    snippet: {
-      publishedAt: '2020-03-08T03:00:00Z',
-      channelId: 'UCdOu35-oWiAGSKaM-OaRhRg',
-      title:
-        'Top 5 Women Fashion Designers in India | International Women Day | HS news',
-      description:
-        "InternationalWomenDay #topfashion designers #fashiondesignersinIndia International Women's Day is celebrated across the world on March 8. The day is a ...",
-      thumbnails: {
-        default: {
-          url: 'https://i.ytimg.com/vi/0SjdnWb_9i8/default.jpg',
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: 'https://i.ytimg.com/vi/0SjdnWb_9i8/mqdefault.jpg',
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: 'https://i.ytimg.com/vi/0SjdnWb_9i8/hqdefault.jpg',
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: 'LIVE BIHAR - BHARAT',
-      liveBroadcastContent: 'none',
-      publishTime: '2020-03-08T03:00:00Z',
-    },
-  },
-  {
-    kind: 'youtube#searchResult',
-    etag: 'Cu9-5FCf5SyJLQUZp-9fPD8MCLY',
-    id: {
-      kind: 'youtube#video',
-      videoId: 'UDu0ldKN4iU',
-    },
-    snippet: {
-      publishedAt: '2017-10-05T08:50:52Z',
-      channelId: 'UCgwGJ7eRqURmqBgg-k52H_g',
-      title: 'How to become a fashion designer - 5 Skills You need',
-      description:
-        'How to become a fashion designer - learn more about famous fashion designer: http://bit.ly/2hyj1fV.',
-      thumbnails: {
-        default: {
-          url: 'https://i.ytimg.com/vi/UDu0ldKN4iU/default.jpg',
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: 'https://i.ytimg.com/vi/UDu0ldKN4iU/mqdefault.jpg',
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: 'https://i.ytimg.com/vi/UDu0ldKN4iU/hqdefault.jpg',
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: 'Fashionlic',
-      liveBroadcastContent: 'none',
-      publishTime: '2017-10-05T08:50:52Z',
-    },
-  },
-  {
-    kind: 'youtube#searchResult',
-    etag: 'J_4ESQZodEqmuLffonck78F4l6k',
-    id: {
-      kind: 'youtube#video',
-      videoId: 'htzz6DwNIH4',
-    },
-    snippet: {
-      publishedAt: '2018-05-14T17:12:25Z',
-      channelId: 'UCuFFtHWoLl5fauMMD5Ww2jA',
-      title: '11-year old fashion designer launches first collection',
-      description:
-        'Connect with CBC News Online: For breaking news, video, audio and in-depth coverage: http://bit.ly/1Z0m6iX Find CBC News on Facebook: ...',
-      thumbnails: {
-        default: {
-          url: 'https://i.ytimg.com/vi/htzz6DwNIH4/default.jpg',
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: 'https://i.ytimg.com/vi/htzz6DwNIH4/mqdefault.jpg',
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: 'https://i.ytimg.com/vi/htzz6DwNIH4/hqdefault.jpg',
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: 'CBC News',
-      liveBroadcastContent: 'none',
-      publishTime: '2018-05-14T17:12:25Z',
+      publishTime: '2021-03-10T13:19:16Z',
     },
   },
 ];
