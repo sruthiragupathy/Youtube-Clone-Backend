@@ -13,7 +13,7 @@ const videoRoutes = require('./Routes/video');
 const playlistRoutes = require('./Routes/playlist');
 const noteRoutes = require('./Routes/note');
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 connectMongoDb();
 

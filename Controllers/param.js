@@ -10,7 +10,7 @@ exports.getUserById = async (req, res, next, id) => {
     if (!user) {
       throw Error('No such user found');
     }
-    console.log({ user });
+    // console.log({ user });
     req.user = user;
     next();
   } catch (error) {
@@ -21,7 +21,7 @@ exports.getUserById = async (req, res, next, id) => {
 exports.getPlaylistByUser = async (req, res, next, id) => {
   try {
     const playlists = await Playlist.find({ userId: id });
-    console.log({ playlists });
+    // console.log({ playlists });
     req.playlists = playlists;
     next();
   } catch (error) {
@@ -32,7 +32,7 @@ exports.getPlaylistByUser = async (req, res, next, id) => {
 exports.getVideoById = async (req, res, next, id) => {
   try {
     const video = await Video.findById(id);
-    console.log({ video });
+    // console.log({ video });
     req.video = video;
     next();
   } catch (error) {
