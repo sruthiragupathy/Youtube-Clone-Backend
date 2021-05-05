@@ -2,7 +2,7 @@ const { default: axios } = require('axios');
 const { videoList } = require('./Models/Database');
 
 const CookVideoUrl = (videoId) => {
-  const videosUrl = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet&q=fashion&key=AIzaSyD5u2AGMxbY2WecF3dEcUZi7gsemBN1Pb4 
+  const videosUrl = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet&key=AIzaSyD5u2AGMxbY2WecF3dEcUZi7gsemBN1Pb4 
     &maxResults=10&part=statistics&id=${videoId}`;
   return videosUrl;
 };
@@ -13,7 +13,9 @@ const ChannelUrl = (channelId) => {
 };
 
 const getChannelProfile = async (videoId) => {
+  console.log(videoId);
   const response = await axios.get(CookVideoUrl(videoId));
+  // console.log(response);
   const { channelId } = response.data.items[0].snippet;
   // console.log(channelId);
   const channelresp = await axios.get(ChannelUrl(channelId));
@@ -24,11 +26,14 @@ const getChannelProfile = async (videoId) => {
 
 const getViewCount = async (videoId) => {
   const response = await axios.get(CookVideoUrl(videoId));
+  console.log(response.data.items[0].statistics.viewCount);
   return response.data.items[0].statistics.viewCount;
 };
 
 const getLikeCount = async (videoId) => {
   const response = await axios.get(CookVideoUrl(videoId));
+  console.log(response.data.items[0].statistics.likeCount);
+
   return response.data.items[0].statistics.likeCount;
 };
 
@@ -41,7 +46,7 @@ exports.normalizeData = async () => {
       thumbNailUrl: video.snippet.thumbnails.default.url,
       channelTitle: video.snippet.channelTitle,
       channelProfile: await getChannelProfile(video.id.videoId),
-      category: '6087f7d5f7b0c6c5d80d0f90',
+      category: '6087f84af7b0c6c5d80d0f92',
       viewCount: await getViewCount(video.id.videoId),
       likeCount: await getLikeCount(video.id.videoId),
     };
