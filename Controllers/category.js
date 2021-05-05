@@ -12,3 +12,12 @@ exports.addCategory = async (req, res) => {
     res.json({ success: false, response: 'Failed to save category' });
   }
 };
+
+exports.getCategories = async (req, res) => {
+  try {
+    const response = await Category.find({});
+    res.json({ success: true, response });
+  } catch (error) {
+    res.json({ success: false, response: 'Failed to save category' });
+  }
+};
