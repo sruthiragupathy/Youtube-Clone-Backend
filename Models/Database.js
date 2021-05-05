@@ -1,356 +1,349 @@
 exports.videoList = [
   {
     kind: 'youtube#searchResult',
-    etag: 'LGCQ8idy62TfH0mqOb0XrVrVNk8',
+    etag: 'uvbyeI5LkKGi_2AqF0OQ3zLHtSc',
     id: {
-      kind: 'youtube#video',
-      videoId: 'vV_QoQD_nrA',
+      kind: 'youtube#channel',
+      channelId: 'UClwfNh8QCVHX8BB7gXmle1w',
     },
     snippet: {
-      publishedAt: '2021-01-21T13:49:44Z',
-      channelId: 'UC5q0PIKGr2lGOsiT14AlEYg',
-      title: 'Men’s Fall-Winter 2021 Fashion Show | LOUIS VUITTON',
+      publishedAt: '2015-09-02T17:12:17Z',
+      channelId: 'UClwfNh8QCVHX8BB7gXmle1w',
+      title: 'Fashion Sketches',
       description:
-        'Louis Vuitton presented the Fall-Winter 2021 Collection by Virgil Abloh in Paris on January, 21st. Peculiar Contrast, Perfect Light A Film By Virgil Abloh And ...',
+        'Hello, My name is Samira Drawing fashion is all I do here if you like my videos please subscribe for more. For business inquiries: samira.makro@gmail.com.',
       thumbnails: {
         default: {
-          url: 'https://i.ytimg.com/vi/vV_QoQD_nrA/default.jpg',
-          width: 120,
-          height: 90,
+          url:
+            'https://yt3.ggpht.com/ytc/AAUvwnjGfUJNrrOmVF06tiQSf2K9Q9TzRWcq92y0zyw5yQ=s88-c-k-c0xffffffff-no-rj-mo',
         },
         medium: {
-          url: 'https://i.ytimg.com/vi/vV_QoQD_nrA/mqdefault.jpg',
-          width: 320,
-          height: 180,
+          url:
+            'https://yt3.ggpht.com/ytc/AAUvwnjGfUJNrrOmVF06tiQSf2K9Q9TzRWcq92y0zyw5yQ=s240-c-k-c0xffffffff-no-rj-mo',
         },
         high: {
-          url: 'https://i.ytimg.com/vi/vV_QoQD_nrA/hqdefault.jpg',
-          width: 480,
-          height: 360,
+          url:
+            'https://yt3.ggpht.com/ytc/AAUvwnjGfUJNrrOmVF06tiQSf2K9Q9TzRWcq92y0zyw5yQ=s800-c-k-c0xffffffff-no-rj-mo',
         },
       },
-      channelTitle: 'Louis Vuitton',
-      liveBroadcastContent: 'none',
-      publishTime: '2021-01-21T13:49:44Z',
+      channelTitle: 'Fashion Sketches',
+      liveBroadcastContent: 'upcoming',
+      publishTime: '2015-09-02T17:12:17Z',
     },
   },
   {
     kind: 'youtube#searchResult',
-    etag: 'Aze5kCR_fGe2wpVmm5fKxsBw60s',
+    etag: 'FbmgXgEnzJJJHHeLFnZeQHC-rJU',
     id: {
       kind: 'youtube#video',
-      videoId: 'GvQgXS_gtHs',
+      videoId: 'SSzQZzpGDl0',
     },
     snippet: {
-      publishedAt: '2019-09-13T21:00:05Z',
-      channelId: 'UCo7a6riBFJ3tkeHjvkXPn1g',
-      title: 'Why is Louis Vuitton so expensive? | CNBC Explains',
+      publishedAt: '2018-01-27T21:18:09Z',
+      channelId: 'UClwfNh8QCVHX8BB7gXmle1w',
+      title: 'How to draw your own  Fashion Croquis step by step',
       description:
-        "Louis Vuitton has held the title for world's most valuable luxury brand for more than a decade. CNBC's Timothyna Duncan explains how the French fashion ...",
+        'hi, I made this video to show you how to make your own fashion croquis with an easy way. you will need: Paper A4, Ruler, Pencil, Eraser PS: if you have any ...',
       thumbnails: {
         default: {
-          url: 'https://i.ytimg.com/vi/GvQgXS_gtHs/default.jpg',
+          url: 'https://i.ytimg.com/vi/SSzQZzpGDl0/default.jpg',
           width: 120,
           height: 90,
         },
         medium: {
-          url: 'https://i.ytimg.com/vi/GvQgXS_gtHs/mqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/SSzQZzpGDl0/mqdefault.jpg',
           width: 320,
           height: 180,
         },
         high: {
-          url: 'https://i.ytimg.com/vi/GvQgXS_gtHs/hqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/SSzQZzpGDl0/hqdefault.jpg',
           width: 480,
           height: 360,
         },
       },
-      channelTitle: 'CNBC International',
+      channelTitle: 'Fashion Sketches',
       liveBroadcastContent: 'none',
-      publishTime: '2019-09-13T21:00:05Z',
+      publishTime: '2018-01-27T21:18:09Z',
     },
   },
   {
     kind: 'youtube#searchResult',
-    etag: 'gC_xSmrdzqgbf-pcUfITUjzjNxg',
+    etag: 'blSHmO9VhF8y3wpukHBocif6Y4s',
     id: {
       kind: 'youtube#video',
-      videoId: 'dyDQIegxvHQ',
+      videoId: 'cJ8bWJtFpHM',
     },
     snippet: {
-      publishedAt: '2019-04-17T23:00:04Z',
-      channelId: 'UCs-RHLMgqjC1CS9Rsq4I3Xg',
-      title: 'Returning Fake Louis Vuitton To The Louis Vuitton Store!',
+      publishedAt: '2020-05-14T02:13:55Z',
+      channelId: 'UC_Uf7ni9rLo-P26wywDCBnQ',
+      title: '5 minutes sketches (Fashion sketching)',
       description:
-        "Today we went to the louis vuitton store and tried to return a fake louis vuitton bag! What's good Legit Nation! Thanks for watching and supporting the channel!",
+        'Online course of Fashion Sketching https://www.art-immersion.com/eng_fashion Many activities in my Instagram: https://www.instagram.com/lena_astah/',
       thumbnails: {
         default: {
-          url: 'https://i.ytimg.com/vi/dyDQIegxvHQ/default.jpg',
+          url: 'https://i.ytimg.com/vi/cJ8bWJtFpHM/default.jpg',
           width: 120,
           height: 90,
         },
         medium: {
-          url: 'https://i.ytimg.com/vi/dyDQIegxvHQ/mqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/cJ8bWJtFpHM/mqdefault.jpg',
           width: 320,
           height: 180,
         },
         high: {
-          url: 'https://i.ytimg.com/vi/dyDQIegxvHQ/hqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/cJ8bWJtFpHM/hqdefault.jpg',
           width: 480,
           height: 360,
         },
       },
-      channelTitle: 'Legit Tim',
+      channelTitle: 'Art Immersion',
       liveBroadcastContent: 'none',
-      publishTime: '2019-04-17T23:00:04Z',
+      publishTime: '2020-05-14T02:13:55Z',
     },
   },
   {
     kind: 'youtube#searchResult',
-    etag: 'U9POT34qh4zeD853HGjnJ0se1wk',
+    etag: 'u4LKnGiYDazcRBJcr8PWtxP2DPI',
     id: {
       kind: 'youtube#video',
-      videoId: 'jTwW4ZrqT3w',
+      videoId: 'OsKiEE1Ifuc',
     },
     snippet: {
-      publishedAt: '2020-08-06T11:10:00Z',
-      channelId: 'UC5q0PIKGr2lGOsiT14AlEYg',
+      publishedAt: '2017-04-16T03:08:59Z',
+      channelId: 'UCnhQtRAmv4XNs57hPt4RF0w',
+      title: 'Fashion Sketch Painting for beginners - Slow Version',
+      description:
+        'This fashion illustration painting video is a slower version of my first ever video tutorial. You will find the other video on my channel. My Instagram has changed, ...',
+      thumbnails: {
+        default: {
+          url: 'https://i.ytimg.com/vi/OsKiEE1Ifuc/default.jpg',
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: 'https://i.ytimg.com/vi/OsKiEE1Ifuc/mqdefault.jpg',
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: 'https://i.ytimg.com/vi/OsKiEE1Ifuc/hqdefault.jpg',
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: 'zoljargal enkhbold',
+      liveBroadcastContent: 'none',
+      publishTime: '2017-04-16T03:08:59Z',
+    },
+  },
+  {
+    kind: 'youtube#searchResult',
+    etag: 'ZpIlqMBh6EiPJCF-gmc5bSdFZ3Y',
+    id: {
+      kind: 'youtube#video',
+      videoId: 'YKHksTetcAQ',
+    },
+    snippet: {
+      publishedAt: '2020-06-03T05:00:12Z',
+      channelId: 'UC9cJS2L6vSpyVkqanE-m4vA',
+      title: 'Fashion sketches dresses compilation',
+      description:
+        "Welcome to my CAM STYLES video! I make drawing video that are easy to understand and apply. So whether you're a beginner or seasoned artist, you can still ...",
+      thumbnails: {
+        default: {
+          url: 'https://i.ytimg.com/vi/YKHksTetcAQ/default.jpg',
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: 'https://i.ytimg.com/vi/YKHksTetcAQ/mqdefault.jpg',
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: 'https://i.ytimg.com/vi/YKHksTetcAQ/hqdefault.jpg',
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: 'CAM STYLES',
+      liveBroadcastContent: 'none',
+      publishTime: '2020-06-03T05:00:12Z',
+    },
+  },
+  {
+    kind: 'youtube#searchResult',
+    etag: 'BaUULoGoqfDpzCvA-4b2IESi1uc',
+    id: {
+      kind: 'youtube#video',
+      videoId: '0orqkmOGamk',
+    },
+    snippet: {
+      publishedAt: '2014-08-28T21:39:53Z',
+      channelId: 'UCPegzUNwooyJ7fwK9dEvfBQ',
+      title: 'How to do fashion sketches step by step',
+      description:
+        "I'm Ioana Avram, fashion designer. Welcome to my Fashion teaching channel where you will find design videos starting from basic, easy level ( for beginners ) ...",
+      thumbnails: {
+        default: {
+          url: 'https://i.ytimg.com/vi/0orqkmOGamk/default.jpg',
+          width: 120,
+          height: 90,
+        },
+        medium: {
+          url: 'https://i.ytimg.com/vi/0orqkmOGamk/mqdefault.jpg',
+          width: 320,
+          height: 180,
+        },
+        high: {
+          url: 'https://i.ytimg.com/vi/0orqkmOGamk/hqdefault.jpg',
+          width: 480,
+          height: 360,
+        },
+      },
+      channelTitle: 'Fashion teaching',
+      liveBroadcastContent: 'none',
+      publishTime: '2014-08-28T21:39:53Z',
+    },
+  },
+  {
+    kind: 'youtube#searchResult',
+    etag: 'ilNDQT-EiQPZgY47FUD_RGuOXqk',
+    id: {
+      kind: 'youtube#video',
+      videoId: 'QFdi95YTDys',
+    },
+    snippet: {
+      publishedAt: '2019-09-27T17:58:26Z',
+      channelId: 'UCRXiA3h1no_PFkb1JCP0yMA',
       title:
-        'Louis Vuitton Men&#39;s Spring-Summer 2021 Show in Shanghai | LOUIS VUITTON',
+        'How a Dior Dress Is Made, From Sketches to the Runway | Sketch to Dress | Vogue',
       description:
-        "Louis Vuitton presents the Men's Spring-Summer 2021 Collection by Virgil Abloh in Shanghai. Music produced by Benji B and written by Omar, The Yussef ...",
+        "Ever wondered what goes into the making of a dress during fashion week? Watch as a dress goes from conception to the runway from one of the world's greatest ...",
       thumbnails: {
         default: {
-          url: 'https://i.ytimg.com/vi/jTwW4ZrqT3w/default.jpg',
+          url: 'https://i.ytimg.com/vi/QFdi95YTDys/default.jpg',
           width: 120,
           height: 90,
         },
         medium: {
-          url: 'https://i.ytimg.com/vi/jTwW4ZrqT3w/mqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/QFdi95YTDys/mqdefault.jpg',
           width: 320,
           height: 180,
         },
         high: {
-          url: 'https://i.ytimg.com/vi/jTwW4ZrqT3w/hqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/QFdi95YTDys/hqdefault.jpg',
           width: 480,
           height: 360,
         },
       },
-      channelTitle: 'Louis Vuitton',
+      channelTitle: 'Vogue',
       liveBroadcastContent: 'none',
-      publishTime: '2020-08-06T11:10:00Z',
+      publishTime: '2019-09-27T17:58:26Z',
     },
   },
   {
     kind: 'youtube#searchResult',
-    etag: 'CMu2Zl1Sp7FLwyA0xMtyacJBta8',
+    etag: '07DuDEoLYm4Gk9BbbPS-SofgTFY',
     id: {
       kind: 'youtube#video',
-      videoId: 'SfDZwPoEjwM',
+      videoId: 'tjPcYOawByk',
     },
     snippet: {
-      publishedAt: '2019-06-20T13:24:04Z',
-      channelId: 'UC5q0PIKGr2lGOsiT14AlEYg',
-      title: 'Louis Vuitton Men&#39;s Spring-Summer 2020 Fashion Show',
-      description:
-        "Louis Vuitton presents the Men's Spring-Summer 2020 Collection by Virgil Abloh in Paris. Musical Direction & Curation by: Benji B Music Performed by: The ...",
+      publishedAt: '2019-12-04T02:00:11Z',
+      channelId: 'UCMQ_mPIBPi4IMpYEmuyOMqQ',
+      title: 'Quick Design Sketch vs Fashion Illustration',
+      description: 'CONTACT: teaching@zoehong.com.',
       thumbnails: {
         default: {
-          url: 'https://i.ytimg.com/vi/SfDZwPoEjwM/default.jpg',
+          url: 'https://i.ytimg.com/vi/tjPcYOawByk/default.jpg',
           width: 120,
           height: 90,
         },
         medium: {
-          url: 'https://i.ytimg.com/vi/SfDZwPoEjwM/mqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/tjPcYOawByk/mqdefault.jpg',
           width: 320,
           height: 180,
         },
         high: {
-          url: 'https://i.ytimg.com/vi/SfDZwPoEjwM/hqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/tjPcYOawByk/hqdefault.jpg',
           width: 480,
           height: 360,
         },
       },
-      channelTitle: 'Louis Vuitton',
+      channelTitle: 'Zoe Hong',
       liveBroadcastContent: 'none',
-      publishTime: '2019-06-20T13:24:04Z',
+      publishTime: '2019-12-04T02:00:11Z',
     },
   },
   {
     kind: 'youtube#searchResult',
-    etag: 'uCUfZHKpCcl508UpK9NpoHG5xao',
+    etag: '0-fG0Cu2tO_CMzvLkniIAgp38wo',
     id: {
       kind: 'youtube#video',
-      videoId: '-h1pJkdcYgI',
+      videoId: '-LMu7q4h7OE',
     },
     snippet: {
-      publishedAt: '2019-09-20T08:14:24Z',
-      channelId: 'UC5q0PIKGr2lGOsiT14AlEYg',
-      title:
-        'Ateliers Visites with Loïc Prigent: Fiesso d’Artico, Italy | LOUIS VUITTON',
+      publishedAt: '2020-05-10T04:24:08Z',
+      channelId: 'UCEHusMVi6ZuEYckbqCvsUDw',
+      title: 'Tools For Fashion Drawing- Fashion Sketching Supplies',
       description:
-        "After Asnières, French director Loïc Prigent heads to Louis Vuitton's shoemaking workshop in Fiesso d'Artico, outside of Venice, Italy, where he learns about the ...",
+        'Fashion sketching supplies - Fashion sketching supplies suppliers as sketch suppliers line sketch suppliers A5 custom sprial notepad wire sprial notebook craft ...',
       thumbnails: {
         default: {
-          url: 'https://i.ytimg.com/vi/-h1pJkdcYgI/default.jpg',
+          url: 'https://i.ytimg.com/vi/-LMu7q4h7OE/default.jpg',
           width: 120,
           height: 90,
         },
         medium: {
-          url: 'https://i.ytimg.com/vi/-h1pJkdcYgI/mqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/-LMu7q4h7OE/mqdefault.jpg',
           width: 320,
           height: 180,
         },
         high: {
-          url: 'https://i.ytimg.com/vi/-h1pJkdcYgI/hqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/-LMu7q4h7OE/hqdefault.jpg',
           width: 480,
           height: 360,
         },
       },
-      channelTitle: 'Louis Vuitton',
+      channelTitle: 'Designer Nishat Mirza',
       liveBroadcastContent: 'none',
-      publishTime: '2019-09-20T08:14:24Z',
+      publishTime: '2020-05-10T04:24:08Z',
     },
   },
   {
     kind: 'youtube#searchResult',
-    etag: 'Cw9v4tW2MKXMglhckGruxXnKyYA',
+    etag: 'R9QkOryagdUZ5DgAQAA4Jy5zewA',
     id: {
       kind: 'youtube#video',
-      videoId: 'G69EXN-Lm9g',
+      videoId: '17-Tsp8Fcbw',
     },
     snippet: {
-      publishedAt: '2014-12-04T15:09:00Z',
-      channelId: 'UCdKer4s1D0JGRM-bvniqYtA',
-      title:
-        'Fondation Louis Vuitton, histoire d&#39;une construction exceptionnelle',
+      publishedAt: '2016-12-24T23:49:21Z',
+      channelId: 'UCWq50IHe5ganEiI71pVHZHg',
+      title: 'Steps in Fashion Illustration',
       description:
-        "Découvrez en images les étapes de la construction de la Fondation Louis Vuitton, un chantier d'une complexité inédite ! VINCI a achevé en 2014 la construction ...",
+        'This exercise has been crafted with very simple basic techniques and materials available to enable an absolute beginner to try and gain some confidence in the ...',
       thumbnails: {
         default: {
-          url: 'https://i.ytimg.com/vi/G69EXN-Lm9g/default.jpg',
+          url: 'https://i.ytimg.com/vi/17-Tsp8Fcbw/default.jpg',
           width: 120,
           height: 90,
         },
         medium: {
-          url: 'https://i.ytimg.com/vi/G69EXN-Lm9g/mqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/17-Tsp8Fcbw/mqdefault.jpg',
           width: 320,
           height: 180,
         },
         high: {
-          url: 'https://i.ytimg.com/vi/G69EXN-Lm9g/hqdefault.jpg',
+          url: 'https://i.ytimg.com/vi/17-Tsp8Fcbw/hqdefault.jpg',
           width: 480,
           height: 360,
         },
       },
-      channelTitle: 'VINCI Construction France',
+      channelTitle: 'Ekanem Orok',
       liveBroadcastContent: 'none',
-      publishTime: '2014-12-04T15:09:00Z',
-    },
-  },
-  {
-    kind: 'youtube#searchResult',
-    etag: 'BoUwp542ydJzbz2wkRT7RlgoazQ',
-    id: {
-      kind: 'youtube#video',
-      videoId: 'xKyD0u12Ssk',
-    },
-    snippet: {
-      publishedAt: '2020-08-14T08:14:40Z',
-      channelId: 'UC5q0PIKGr2lGOsiT14AlEYg',
-      title: 'LV Volt Fine Jewelry Campaign | LOUIS VUITTON',
-      description:
-        'ABOUT LOUIS VUITTON Since 1854, Louis Vuitton has placed fashion in the context of culture bringing unique designs to the world, combining innovation with ...',
-      thumbnails: {
-        default: {
-          url: 'https://i.ytimg.com/vi/xKyD0u12Ssk/default.jpg',
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: 'https://i.ytimg.com/vi/xKyD0u12Ssk/mqdefault.jpg',
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: 'https://i.ytimg.com/vi/xKyD0u12Ssk/hqdefault.jpg',
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: 'Louis Vuitton',
-      liveBroadcastContent: 'none',
-      publishTime: '2020-08-14T08:14:40Z',
-    },
-  },
-  {
-    kind: 'youtube#searchResult',
-    etag: 'Cj4F8G4a7IPp5JQtDuM8w4VUPmE',
-    id: {
-      kind: 'youtube#video',
-      videoId: 'Mv--9E2rSzw',
-    },
-    snippet: {
-      publishedAt: '2018-03-07T13:25:13Z',
-      channelId: 'UC5q0PIKGr2lGOsiT14AlEYg',
-      title:
-        'Louis Vuitton Women&#39;s Fall-Winter 2018 Fashion Show | LOUIS VUITTON',
-      description:
-        "The Louis Vuitton Women's Fall-Winter 2018 Fashion Show by Nicolas Ghesquière is live from the Louvre in Paris. Take your front row seat for the show now.",
-      thumbnails: {
-        default: {
-          url: 'https://i.ytimg.com/vi/Mv--9E2rSzw/default.jpg',
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: 'https://i.ytimg.com/vi/Mv--9E2rSzw/mqdefault.jpg',
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: 'https://i.ytimg.com/vi/Mv--9E2rSzw/hqdefault.jpg',
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: 'Louis Vuitton',
-      liveBroadcastContent: 'none',
-      publishTime: '2018-03-07T13:25:13Z',
-    },
-  },
-  {
-    kind: 'youtube#searchResult',
-    etag: 'RYc6ebfw8GJ5eOfVs2YGKK0YcbA',
-    id: {
-      kind: 'youtube#video',
-      videoId: 'FVBIcPETT8I',
-    },
-    snippet: {
-      publishedAt: '2021-03-10T13:19:16Z',
-      channelId: 'UC5q0PIKGr2lGOsiT14AlEYg',
-      title: 'Women’s Fall-Winter 2021 Fashion Show | LOUIS VUITTON',
-      description:
-        'Nicolas Ghesquière presented his #LVFW21​ Collection in the spectacular setting of the Michelangelo Gallery at the Louvre in Paris, featuring a collaborative ...',
-      thumbnails: {
-        default: {
-          url: 'https://i.ytimg.com/vi/FVBIcPETT8I/default.jpg',
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: 'https://i.ytimg.com/vi/FVBIcPETT8I/mqdefault.jpg',
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: 'https://i.ytimg.com/vi/FVBIcPETT8I/hqdefault.jpg',
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: 'Louis Vuitton',
-      liveBroadcastContent: 'none',
-      publishTime: '2021-03-10T13:19:16Z',
+      publishTime: '2016-12-24T23:49:21Z',
     },
   },
 ];
