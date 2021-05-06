@@ -7,17 +7,17 @@ exports.addCategory = async (req, res) => {
   });
   try {
     const response = await newCategory.save();
-    res.json({ success: true, response });
+    res.json({ response });
   } catch (error) {
-    res.json({ success: false, response: 'Failed to save category' });
+    res.status(400).json({ response: 'Failed to save category' });
   }
 };
 
 exports.getCategories = async (req, res) => {
   try {
     const response = await Category.find({});
-    res.json({ success: true, response });
+    res.json({ response });
   } catch (error) {
-    res.json({ success: false, response: 'Failed to save category' });
+    res.status(400).json({ response: 'Failed to save category' });
   }
 };

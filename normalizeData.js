@@ -15,13 +15,9 @@ const ChannelUrl = (channelId) => {
 const getChannelProfile = async (videoId) => {
   console.log(videoId);
   const response = await axios.get(CookVideoUrl(videoId));
-  // console.log(response);
   const { channelId } = response.data.items[0].snippet;
-  // console.log(channelId);
   const channelresp = await axios.get(ChannelUrl(channelId));
-  // console.log(channelresp.data.items[0].snippet.thumbnails.default.url)
   return channelresp.data.items[0].snippet.thumbnails.default.url;
-  // return 1
 };
 
 const getViewCount = async (videoId) => {
@@ -46,7 +42,7 @@ exports.normalizeData = async () => {
       thumbNailUrl: video.snippet.thumbnails.default.url,
       channelTitle: video.snippet.channelTitle,
       channelProfile: await getChannelProfile(video.id.videoId),
-      category: '6087f84af7b0c6c5d80d0f92',
+      category: '6087f86df7b0c6c5d80d0f93',
       viewCount: await getViewCount(video.id.videoId),
       likeCount: await getLikeCount(video.id.videoId),
     };
@@ -55,3 +51,15 @@ exports.normalizeData = async () => {
   const numFruits = await Promise.all(promises);
   return numFruits;
 };
+
+// const populateData = async (videoList) => {
+//   try {
+//     await Video.insertMany(videoList);
+//     console.log('done populating');
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
+// let videos;
+// normalizeData().then((response) => (videos = response));
+// // .then(() => populateData(videos));

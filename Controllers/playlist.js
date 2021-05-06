@@ -51,7 +51,6 @@ const createPlaylist = async (req, res) => {
   const { userId } = req.params;
   const { name } = req.body;
   const { video } = req;
-  // console.log(mongoose.Types.ObjectId.isValid(video._id));
   const newVideo = new Playlist({
     userId,
     name,
@@ -62,13 +61,12 @@ const createPlaylist = async (req, res) => {
     response = await response.populate('videos.video').execPopulate();
     res.json({ success: true, response });
   } catch (error) {
-    res.json({ success: false, response: error.message });
+    res.status(400).json({ response: error.message });
   }
 };
 
 const addVideoToPlaylist = async (req, res) => {
   const { playlist, video } = req;
-  // const { videoId } = req.params;
   try {
     if (!playlist.videos.id(video._id)) {
       playlist.videos.push({ _id: video._id, video: video._id });

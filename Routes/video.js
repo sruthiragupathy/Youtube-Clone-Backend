@@ -1,5 +1,4 @@
 const express = require('express');
-// const { addCategory } = require('../Controllers/category');
 const { getAllVideos, getVideoById } = require('../Controllers/video');
 
 const router = express.Router();

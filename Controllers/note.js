@@ -52,14 +52,10 @@ const createNotesForAVideo = async (req, res) => {
 
 const updateNote = async (req, res) => {
   const { userId, videoId, noteId } = req.params;
-  console.log({ userId, videoId, noteId });
   const { note, time } = req.body;
-  // console.log({ note, time });
   try {
     const notesOfAVideo = await Note.findOne({ videoId, userId });
-    // console.log(notesOfAVideo);
     let noteToBeUpdated = notesOfAVideo.notes.id(noteId);
-    // console.log(noteToBeUpdated);
     noteToBeUpdated = _.extend(noteToBeUpdated, { note });
     notesOfAVideo.notes = _.extend(notesOfAVideo.notes, { noteToBeUpdated });
     await notesOfAVideo.save();

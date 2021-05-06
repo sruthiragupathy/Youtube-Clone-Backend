@@ -6,12 +6,10 @@ const childSchema = new Schema({
   note: {
     type: String,
     trim: true,
-    // required: 'note is required',
   },
   time: {
     type: String,
     trim: true,
-    // required: 'time is required',
   },
 });
 

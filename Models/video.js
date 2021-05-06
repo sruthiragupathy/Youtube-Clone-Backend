@@ -1,4 +1,3 @@
-// const { ObjectID } = require('bson');
 const mongoose = require('mongoose');
 
 const { Schema } = mongoose;
